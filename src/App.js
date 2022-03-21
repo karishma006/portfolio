@@ -1,6 +1,6 @@
 const App = () => {
   return (
-      <h1>hello</h1>
+      <h1 className='test'>hello</h1>
   );
 };
 
