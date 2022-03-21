@@ -1,0 +1,66 @@
+@use './variables' as *;
+@use './typography' as *;
+
+@mixin tablet {
+    @media (min-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}
+
+@mixin regular {
+    font-weight: 400;
+}
+
+@mixin semi-bold {
+    font-weight: 600;
+}
+
+@mixin bold {
+    font-weight: 700;
+}
+
+@mixin proza-bibre {
+    font-family: 'Proza Libre';
+}
+
+@mixin open-sans {
+    font-family: 'Open Sans';
+}
+
+@mixin tab-desk-display-1 {
+    font-size: 3rem;
+    line-height: 4.375rem;
+}
+
+@mixin tab-desk-display-2 {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+}
+
+@mixin tab-desk-heading-body-1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+@mixin tab-desk-subheading-body-2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+@mixin button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0625rem;
+}
+
+@mixin label {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.0625rem;
+}
