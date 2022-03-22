@@ -2,8 +2,6 @@
 @use '../../partials/resets' as *;
 
 .hero {
-    height: 100vh;
-
     &__image {
         height: 37.5rem;
     }

@@ -1,0 +1,16 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.subheader {
+    width: 100vw;
+    padding: 1.25rem $desk-margin-x-1;
+    background-color: $secondary-color;
+
+    &__link {
+        text-decoration: none;
+        @include tab-desk-display-1;
+        @include semi-bold;
+        color: $dark-color;
+    }
+}
