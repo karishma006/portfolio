@@ -1,0 +1,46 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.header {
+    height: 6.25rem;
+    background-color: $light-color;
+
+    @include tablet {
+        padding: 1.25rem 6.25rem;
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+
+        &__text {
+            @include tab-desk-display-2;
+            color: $primary-color;
+        }
+    }
+
+    &__nav {
+        margin-left: auto;
+        display: flex;
+
+        &__link {
+            color: $dark-color;
+            @include button;
+            @include bold;
+            text-decoration: none;
+            width: 6.25rem;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.625rem;
+
+            &--active {
+                border-bottom: 0.25rem solid $secondary-color;
+            }
+
+            &:hover {
+                border-bottom: 0.25rem solid $secondary-color;
+            }
+        }
+    }
+}

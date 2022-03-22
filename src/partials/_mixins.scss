@@ -36,31 +36,37 @@
 @mixin tab-desk-display-1 {
     font-size: 3rem;
     line-height: 4.375rem;
+    @include proza-bibre;
 }
 
 @mixin tab-desk-display-2 {
     font-size: 2.25rem;
     line-height: 3.125rem;
+    @include proza-bibre;
 }
 
 @mixin tab-desk-heading-body-1 {
     font-size: 1.5rem;
     line-height: 2.25rem;
+    @include open-sans;
 }
 
 @mixin tab-desk-subheading-body-2 {
     font-size: 1.125rem;
     line-height: 1.75rem;
+    @include open-sans;
 }
 
 @mixin button {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0625rem;
+    @include open-sans;
 }
 
 @mixin label {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.0625rem;
+    @include open-sans;
 }
