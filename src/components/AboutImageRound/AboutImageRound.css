@@ -35,7 +35,7 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-.about__image {
+.about__image--round {
   width: 26.39vw;
   height: 26.39vw;
   border-radius: 26.39vw;

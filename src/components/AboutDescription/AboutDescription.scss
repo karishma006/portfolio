@@ -6,16 +6,17 @@
     &__description {
         display: flex;
         flex-direction: column;
-        margin-left: 3.47vw;
     }
 
     &__subheading {
         @include tab-desk-heading-body-1;
         @include bold;
         margin-bottom: 1.5rem;
+        color: $dark-color;
     }
 
     &__body {
         @include tab-desk-heading-body-1;
+        color: $dark-color;
     }
 }

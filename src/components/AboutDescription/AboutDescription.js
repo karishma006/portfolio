@@ -1,8 +1,8 @@
 import './AboutDescription.scss';
 
-const AboutDescription = ({ subheading, body }) => {
+const AboutDescription = ({ classname, subheading, body }) => {
     return (
-        <article className='about__description'>
+        <article className={classname}>
             <h2 className='about__subheading'>{subheading}</h2>
             <p className='about__body'>{body}</p>
         </article>

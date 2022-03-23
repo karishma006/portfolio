@@ -1,6 +1,8 @@
+import './AboutImageRound.scss';
+
 const AboutImageRound = ({ src, alt }) => {
     return (
-        <img className='about__image' src={src} alt={alt}/>
+        <img className='about__image--round' src={src} alt={alt}/>
     );
 };
 

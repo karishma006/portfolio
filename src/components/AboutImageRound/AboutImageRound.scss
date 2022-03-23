@@ -4,8 +4,10 @@
 
 .about {
     &__image {
-        width: 26.39vw;
-        height: 26.39vw;
-        border-radius: 26.39vw;
+        &--round {
+            width: 26.39vw;
+            height: 26.39vw;
+            border-radius: 26.39vw;
+        }
     }
 }

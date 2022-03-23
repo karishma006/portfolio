@@ -1,0 +1,13 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.about {
+    &__image {
+        &--square {
+            width: 26.39vw;
+            height: 26.39vw;
+            @include rounded-corners;
+        }
+    }
+}
