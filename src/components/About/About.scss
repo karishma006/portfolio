@@ -1,0 +1,39 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.about {
+    background-color: $accent-color;
+    padding: 5rem $desk-margin-x-1;
+
+    &__heading {
+        @include tab-desk-display-2;
+    }
+
+    &__container {
+        display: flex;
+        margin: 2.5rem 0 5rem 0;
+    }
+
+    &__image {
+        width: 26.39vw;
+        height: 26.39vw;
+        border-radius: 26.39vw;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3.47vw;
+    }
+
+    &__subheading {
+        @include tab-desk-heading-body-1;
+        @include bold;
+        margin-bottom: 1.5rem;
+    }
+
+    &__body {
+        @include tab-desk-heading-body-1;
+    }
+}

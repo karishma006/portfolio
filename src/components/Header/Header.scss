@@ -35,11 +35,11 @@
             padding-bottom: 0.625rem;
 
             &--active {
-                border-bottom: 0.25rem solid $secondary-color;
+                border-bottom: 0.25rem solid $accent-color;
             }
 
             &:hover {
-                border-bottom: 0.25rem solid $secondary-color;
+                border-bottom: 0.25rem solid $accent-color;
             }
         }
     }

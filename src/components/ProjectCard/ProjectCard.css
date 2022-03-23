@@ -25,6 +25,16 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
 .project-card__image {
   width: 26.39vw;
   height: 26.39vw;

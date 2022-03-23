@@ -25,11 +25,23 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
 .project-nav__heading {
   font-size: 2rem;
   line-height: 3rem;
   font-family: "Proza Libre";
+  margin-bottom: 2.5rem;
 }
 .project-nav__nav {
   display: flex;
+  margin-bottom: 3.75rem;
 }/*# sourceMappingURL=ProjectNav.css.map */

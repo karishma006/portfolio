@@ -5,9 +5,11 @@
 .project-nav {
     &__heading {
         @include tab-desk-display-2;
+        margin-bottom: 2.5rem;
     }
 
     &__nav {
         display: flex;
+        margin-bottom: 3.75rem;
     }
 }
