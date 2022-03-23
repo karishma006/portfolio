@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Proza Libre";
+  src: url("../assets/fonts/ProzaLibre/ProzaLibre-SemiBold.woff2") format("woff2"), url("../assets/fonts/ProzaLibre/ProzaLibre-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"), url("../assets/fonts/OpenSans/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 6.25rem;
+  background-color: #FEFDFE;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 1.25rem 6.25rem;
+    display: flex;
+    align-items: center;
+  }
+}
+.header__logo__text {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: "Proza Libre";
+  color: #B83330;
+}
+.header__nav {
+  margin-left: auto;
+  display: flex;
+}
+.header__nav__link {
+  color: #050533;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0625rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-decoration: none;
+  width: 6.25rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.625rem;
+}
+.header__nav__link--active {
+  border-bottom: 0.25rem solid #E5B73B;
+}
+.header__nav__link:hover {
+  border-bottom: 0.25rem solid #E5B73B;
+}/*# sourceMappingURL=Header.css.map */

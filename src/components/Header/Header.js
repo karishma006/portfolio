@@ -9,7 +9,7 @@ const Header = () => {
             </div>
             <nav className='header__nav'>
                 <NavLink exact to='/' className='header__nav__link' activeClassName='header__nav__link--active'>Home</NavLink>
-                <NavLink to='/work' className='header__nav__link' activeClassName='header__nav__link--active'>Work</NavLink>
+                <NavLink to='/work' className='header__nav__link' activeClassName='header__nav__link--active'>Projects</NavLink>
                 <NavLink to='/about' className='header__nav__link' activeClassName='header__nav__link--active'>About</NavLink>
                 <NavLink to='/contact' className='header__nav__link' activeClassName='header__nav__link--active'>Contact</NavLink>
             </nav>

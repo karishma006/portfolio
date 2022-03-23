@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Proza Libre";
+  src: url("../assets/fonts/ProzaLibre/ProzaLibre-SemiBold.woff2") format("woff2"), url("../assets/fonts/ProzaLibre/ProzaLibre-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"), url("../assets/fonts/OpenSans/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.project-card__image {
+  width: 26.39vw;
+  height: 26.39vw;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=ProjectCard.css.map */

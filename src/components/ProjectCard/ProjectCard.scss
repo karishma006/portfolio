@@ -1,0 +1,11 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.project-card {
+    &__image {
+        width: 26.39vw;
+        height: 26.39vw;
+        @include rounded-corners;
+    }
+}

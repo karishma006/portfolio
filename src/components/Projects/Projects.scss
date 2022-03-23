@@ -1,0 +1,7 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.projects {
+    padding: 0 $desk-margin-x-1;
+}

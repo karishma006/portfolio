@@ -1,0 +1,13 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+@use '../../partials/variables' as *;
+
+.project-nav {
+    &__heading {
+        @include tab-desk-display-2;
+    }
+
+    &__nav {
+        display: flex;
+    }
+}

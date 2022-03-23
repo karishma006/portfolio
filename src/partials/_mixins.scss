@@ -40,8 +40,8 @@
 }
 
 @mixin tab-desk-display-2 {
-    font-size: 2.25rem;
-    line-height: 3.125rem;
+    font-size: 2rem;
+    line-height: 3rem;
     @include proza-bibre;
 }
 
@@ -69,4 +69,8 @@
     line-height: 1rem;
     letter-spacing: 0.0625rem;
     @include open-sans;
+}
+
+@mixin rounded-corners {
+    border-radius: 0.5rem;
 }
