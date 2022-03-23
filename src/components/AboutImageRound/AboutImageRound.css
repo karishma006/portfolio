@@ -35,16 +35,8 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-.subheader {
-  width: 100vw;
-  padding: 3.125rem 6.94vw;
-  background-color: #CBD7D0;
-}
-.subheader__link {
-  text-decoration: none;
-  font-size: 3rem;
-  line-height: 4.375rem;
-  font-family: "Proza Libre";
-  font-weight: 600;
-  color: #050533;
-}/*# sourceMappingURL=Subheader.css.map */
+.about__image {
+  width: 26.39vw;
+  height: 26.39vw;
+  border-radius: 26.39vw;
+}/*# sourceMappingURL=AboutImageRound.css.map */

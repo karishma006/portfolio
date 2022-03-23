@@ -52,21 +52,4 @@ h1, h2, h3, p {
   width: 26.39vw;
   height: 26.39vw;
   border-radius: 26.39vw;
-}
-.about__description {
-  display: flex;
-  flex-direction: column;
-  margin-left: 3.47vw;
-}
-.about__subheading {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  font-family: "Open Sans";
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-.about__body {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  font-family: "Open Sans";
 }/*# sourceMappingURL=About.css.map */

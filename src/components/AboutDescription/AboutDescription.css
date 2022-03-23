@@ -35,16 +35,20 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-.subheader {
-  width: 100vw;
-  padding: 3.125rem 6.94vw;
-  background-color: #CBD7D0;
+.about__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.47vw;
 }
-.subheader__link {
-  text-decoration: none;
-  font-size: 3rem;
-  line-height: 4.375rem;
-  font-family: "Proza Libre";
-  font-weight: 600;
-  color: #050533;
-}/*# sourceMappingURL=Subheader.css.map */
+.about__subheading {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.about__body {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Open Sans";
+}/*# sourceMappingURL=AboutDescription.css.map */

@@ -3,7 +3,7 @@ import Subheader from '../../components/Subheader/Subheader';
 import Projects from '../../components/Projects/Projects';
 import About from '../../components/About/About';
 
-const HomePage = () => {
+const Home = () => {
     return (
         <>
             <HeroImage/>
@@ -17,4 +17,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Home;
